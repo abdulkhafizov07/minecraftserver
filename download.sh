@@ -27,3 +27,7 @@ curl https://cdn.modrinth.com/data/3wmN97b8/versions/OmRzuPrC/multiverse-core-5.
 echo "Downloading BetterRPT"
 cp spigot/betterrtp.jar plugins/betterrtp.jar
 
+echo "Downloading versions"
+curl https://cdn.modrinth.com/data/P1OZGk5p/versions/sVahWBKF/ViaVersion-5.5.1.jar -o plugins/viaversion.jar
+curl https://cdn.modrinth.com/data/NpvuJQoq/versions/Ex8pP0Ax/ViaBackwards-5.5.1.jar -o plugins/viabackwards.jar
+
